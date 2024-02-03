@@ -4,10 +4,15 @@
   height: 70px;
   background-color: rgba(70, 65, 60, 0.637);
   display: inline-block;
+  position: fixed;
 }
 * {
   padding: 0px;
   margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: rgba(19, 12, 2, 0.918);
 }
 #welcome {
   margin-top: 20px;
@@ -22,7 +27,7 @@
   display: flex;
   margin-right: 500px;
   margin-top: 60px;
-  color: rgba(221, 144, 27, 0.918);
+  color: rgba(19, 12, 2, 0.918);
   font-size: 15px;
 }
 #linkabove {
@@ -64,7 +69,7 @@ nav {
   padding: 0px;
   display: flex;
 }
-img {
+#mypic {
   object-fit: cover;
   opacity: 0.7;
 }
@@ -94,12 +99,176 @@ img {
   background-repeat: no-repeat;
   background-color: rgba(58, 52, 52, 0.438);
 }
-
+/* strength section */
 #Mystrength {
-  background-image: url("positivepic.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-color: rgba(58, 52, 52, 0.438);
+  width: 1349px;
+  height: 880px;
+  background-color: rgb(163, 80, 50);
+}
+
+#mystrengthhead {
+  font-size: 40px;
+  color: rgba(223, 78, 5, 0.726);
+  padding: 30px;
+  background-color: rgb(117, 39, 11);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 30px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+  border-radius: 100px;
+}
+.strengthpic {
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  margin-left: 150px;
+  margin-top: 30px;
+  opacity: 0.8;
+  border: 3px solid rgb(94, 40, 40);
+  border-radius: 70px;
+}
+.strengthpic:hover {
+  width: 200px;
+  height: 270px;
+}
+#strengthabove {
+  margin-left: 90px;
+  background-color: #e28743;
+  padding: 20px;
+  border-radius: 300px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+#strengthbelow {
+  margin-left: 90px;
+  background-color: #e28743;
+  padding: 20px;
+  border-radius: 300px;
+
+  margin-right: 200px;
+}
+
+/* weakness section */
+#Myweakness {
+  background-image: url();
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   width: 1349px;
   height: 800px;
+  background-color: rgb(212, 155, 134);
+}
+
+#myweaknesshead {
+  font-size: 40px;
+  color: rgba(223, 78, 5, 0.726);
+  background-color: rgba(110, 59, 38, 0.76);
+  padding: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 30px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+  border-radius: 100px;
+}
+.weaknesspic {
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  margin-left: 150px;
+  margin-top: 30px;
+  opacity: 0.8;
+  border: 3px solid rgb(94, 40, 40);
+  border-radius: 70px;
+}
+.weaknesspic:hover {
+  width: 250px;
+  height: 300px;
+}
+#weaknesses {
+  margin-left: 90px;
+  margin-right: 90px;
+  background-color: #e28743;
+  padding: 20px;
+  border-radius: 300px;
+  margin-top: 30px;
+}
+#strengthbelow {
+  margin-left: 250px;
+  margin-top: 20px;
+}
+/*hobby section */
+#Myhobby {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 1349px;
+  height: 700px;
+  background-color: rgb(49, 117, 146);
+}
+
+#myhobbyhead {
+  font-size: 40px;
+  color: rgba(223, 78, 5, 0.726);
+  background-color: rgb(128, 88, 43);
+  padding: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 30px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+  border-radius: 100px;
+}
+.hobbypic {
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  margin-left: 150px;
+  margin-top: 30px;
+  opacity: 0.8;
+  border: 3px solid rgb(94, 40, 40);
+  border-radius: 70px;
+}
+.hobbypic:hover {
+  width: 250px;
+  height: 300px;
+}
+#hobbylast {
+  margin-left: 90px;
+  margin-right: 90px;
+  background-color: #e28743;
+  padding: 20px;
+  border-radius: 300px;
+  margin-top: 30px;
+}
+#singing {
+  margin-left: 220px;
+  color: #3b3734;
+  font-size: 30px;
+}
+#reading {
+  margin-left: 230px;
+  color: #3b3734;
+  font-size: 30px;
+}
+#basketball {
+  margin-left: 180px;
+  color: #3b3734;
+  font-size: 30px;
+}
+#footer {
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(30, 27, 63, 0.808);
+  display: inline-block;
+  padding: 70px;
+}
+#linktoexercise2 {
+  margin-top: 20px;
+  color: antiquewhite;
+  margin-left: 500px;
 }
